@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Influx = void 0;
 const influxdb_client_1 = require("@influxdata/influxdb-client");
-const reflection_1 = require("reflection");
-const smart_hut_1 = require("smart-hut");
+const reflection_1 = require("@kezziny/reflection");
+const smart_hut_1 = require("@kezziny/smart-hut");
 const Extension_1 = require("./Extension");
 class Influx extends smart_hut_1.DeviceExtension {
     OnPropertyChanged(eventArgs) {

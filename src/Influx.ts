@@ -1,6 +1,6 @@
 import { Point } from '@influxdata/influxdb-client';
-import { Reflection } from 'reflection';
-import { Device, DeviceExtension, Property, PropertyChangeEventArgs } from 'smart-hut';
+import { Reflection } from '@kezziny/reflection';
+import { Device, DeviceExtension, Property, PropertyChangeEventArgs } from '@kezziny/smart-hut';
 import { InfluxExtension } from './Extension';
 
 
