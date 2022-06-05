@@ -1,0 +1,30 @@
+{
+  "name": "smart-hut-extension-influx",
+  "version": "1.0.0",
+  "description": "SmartHut project extension",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kezziny/node-smart-hut-extension-influx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kezziny/node-smart-hut-extension-influx/issues"
+  },
+  "homepage": "https://github.com/kezziny/node-smart-hut-extension-influx#readme",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.26.0",
+    "reflection": "file:../node-reflection",
+    "smart-hut": "file:../node-smart-hut",
+    "smart-hut-extension-tag": "file:../node-smart-hut-extension-tag",
+    "typescript": "^4.7.2"
+  }
+}
