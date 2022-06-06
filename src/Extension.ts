@@ -12,7 +12,7 @@ interface IInfluxExtensionConfig {
 export class InfluxExtension {
 	public static Configuration: IInfluxExtensionConfig;
 
-	public static Setup(config: any): Promise<InfluxExtension> {
+	public static Setup(config: IInfluxExtensionConfig): Promise<InfluxExtension> {
         console.log("Setup mqtt extension");
         
         InfluxExtension.Configuration = config;
